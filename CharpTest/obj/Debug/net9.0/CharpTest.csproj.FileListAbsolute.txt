@@ -1,0 +1,15 @@
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\bin\Debug\net9.0\CharpTest.exe
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\bin\Debug\net9.0\CharpTest.deps.json
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\bin\Debug\net9.0\CharpTest.runtimeconfig.json
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\bin\Debug\net9.0\CharpTest.dll
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\bin\Debug\net9.0\CharpTest.pdb
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\obj\Debug\net9.0\CharpTest.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\obj\Debug\net9.0\CharpTest.AssemblyInfoInputs.cache
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\obj\Debug\net9.0\CharpTest.AssemblyInfo.cs
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\obj\Debug\net9.0\CharpTest.csproj.CoreCompileInputs.cache
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\obj\Debug\net9.0\CharpTest.sourcelink.json
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\obj\Debug\net9.0\CharpTest.dll
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\obj\Debug\net9.0\refint\CharpTest.dll
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\obj\Debug\net9.0\CharpTest.pdb
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\obj\Debug\net9.0\CharpTest.genruntimeconfig.cache
+c:\Users\ossil\OneDrive\Documentos\Estudos\Cursos\Programação\charp-test\CharpTest\obj\Debug\net9.0\ref\CharpTest.dll
