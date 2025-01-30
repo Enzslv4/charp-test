@@ -1,3 +1,10 @@
+import os
+import time
+
+def verifyExit():
+    resposta = input("Deseja 'sair'? ")
+    return resposta.lower() == "sair"
+
 def answerToWhatToDo():
     number = int(input(
         '''O que deseja fazer agora? Você tem 3 opções:
@@ -18,28 +25,41 @@ def getNewUserInformations(usersList):
 
     email = input("Digite o email deste usuário: ")
 
-    if any(user['name'] == name for user in usersList):
-        print("Usuário já existe no sistema.")
-    elif any(user['age'] == age for user in usersList):
-        print("Usuário já existe no sistema.")
-    elif any(user['email'] == email for user in usersList):
-        print("Usuário já existe no sistema.")
+    usersList.append({'name': name, 'age': age, 'email': email})
+    print("Usuário adicionado com sucesso!")
+
+    time.sleep(2)
+
+    os.system('cls')
+
+    return usersList
+
+def seeAllUsers(usersList):
+    if len(usersList) > 0:
+        for user in usersList:
+            time.sleep(0.5)
+            print(f"Nome: {user['name']} E-mail: {user['email']} Idade: {user['age']}\n")
+            return usersList
     else:
-        usersList.append({'name': name, 'age': age, 'email': email})
-        print("Usuário adicionado com sucesso!")
+        time.sleep(0.5)
+
+        os.system('cls')
+
+        print('Nenhum usuário cadastrado!')
+
         return usersList
 
-def showAllUsers(usersList):
-    i = 0
-    for user in usersList:
-        print(f"Usuário {i}: 
-            Nome: {user[i]['name']}, Idade: {user[i]['age']}, E-mail: {user[i]['email']}")
-        i += 1
+    
 
-# lists = []
-# getNewUserInformations(lists)
-# getNewUserInformations(lists)
-# print(lists)
 
-i = 0
-print(f'{i + 1}')
+def seeEspecificUser(userList):
+    userName = input("Escreva o nome do usuário que deseja visualizar: ")
+    found = False
+    for user in userList:
+        if user['name'].lower() == userName.lower():
+            print(f"Usuário encontrado: Nome: {user['name']}, Idade: {user['age']}, Email: {user['email']}")
+            found = True
+            break
+
+    if not found:
+        print("Nome não encontrado na lista.")
