@@ -5,6 +5,7 @@ def verifyExit():
     resposta = input("Deseja 'sair'? ")
     return resposta.lower() == "sair"
 
+
 def answerToWhatToDo():
     number = int(input(
         '''O que deseja fazer agora? Você tem 3 opções:
@@ -17,6 +18,7 @@ def answerToWhatToDo():
         ))
     
     return number
+
 
 def getNewUserInformations(usersList):
     name = input("Digite o nome do novo usuário: ")
@@ -34,6 +36,7 @@ def getNewUserInformations(usersList):
 
     return usersList
 
+
 def seeAllUsers(usersList):
     if len(usersList) > 0:
         for user in usersList:
@@ -48,8 +51,6 @@ def seeAllUsers(usersList):
         print('Nenhum usuário cadastrado!')
 
         return usersList
-
-    
 
 
 def seeEspecificUser(userList):
