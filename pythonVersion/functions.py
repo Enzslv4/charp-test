@@ -2,8 +2,8 @@ import os
 import time
 
 def verifyExit():
-    resposta = input("Deseja 'sair'? ")
-    return resposta.lower() == "sair"
+    answer = input("Deseja 'sair'? ")
+    return answer.lower() == "sair"
 
 
 def answerToWhatToDo():
